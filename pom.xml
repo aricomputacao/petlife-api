@@ -18,6 +18,7 @@
 		<maven.compiler.target>17</maven.compiler.target>
 		<maven.compiler.release>17</maven.compiler.release>
 		<hibernate-jpamodelgen.version>6.4.4.Final</hibernate-jpamodelgen.version>
+		<lombok.version>1.18.32</lombok.version>
 
 	</properties>
 	<dependencies>
@@ -53,7 +54,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.18.32</version>
+			<version>${lombok.version}</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
