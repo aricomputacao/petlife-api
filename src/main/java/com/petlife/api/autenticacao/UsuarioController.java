@@ -1,6 +1,7 @@
 package com.petlife.api.autenticacao;
 
 import com.petlife.dominio.autenticacao.dto.UsuarioDto;
+import com.petlife.dominio.autenticacao.entity.Usuario;
 import com.petlife.dominio.autenticacao.repository.UsuarioRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
