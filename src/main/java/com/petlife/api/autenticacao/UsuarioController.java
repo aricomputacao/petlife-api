@@ -1,7 +1,6 @@
 package com.petlife.api.autenticacao;
 
 import com.petlife.dominio.autenticacao.dto.UsuarioDto;
-import com.petlife.dominio.autenticacao.entity.Usuario;
 import com.petlife.dominio.autenticacao.repository.UsuarioRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
@@ -12,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/usuarios")
+@RequestMapping("api/v1/usuarios")
 @AllArgsConstructor
 public class UsuarioController {
 
